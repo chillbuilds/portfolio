@@ -17,37 +17,69 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="style/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
     <header>
       <div id="name">Will Wojeck</div>
+    </header>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-4">
+          <div id="links">
+            <div class="link" id="bio-link" value="bio">Bio</div>
+            <div class="link" id="projects-link" value="projects">Projects</div>
+            <div class="link" id="resume-link" value="resume">Resume</div>
+            <div class="link" id="contact-link" value="contact">Contact</div>
+          </div>
+        </div>
+        <div class="col-8">
+          <div id="bio" style="display : none;">
+            After a decade of wandering, unsatisfied from one career opportunity
+            to the next I believe I'll be sitting tight with coding and
+            robotics. I've flirted with these 2 for ages, and decided in 2017 to
+            start pursuing them at the hobby level. I bought an arduino
+            uno, attended an intro course at a local maker space, and absolutely
+            fell in love.<br /><br>
+            For the next couple of years, I spent every bit of expendable income
+            on electronic components, tools, and machines to expand my knowledge
+            and capabilities in regards to designing and fabricating
+            electronics. My areas of focus included 3d printing, 3d design with
+            Fusion360, coding with the arduino IDE, and pcb development and
+            manufacturing.<br /><br>
+            In 2019 I attended the Bay Area Maker Faire to further fraternize
+            with the maker/developer community, and was inspired by all of the
+            people I met that had successfully made a career out of a passionate
+            hobby. Returning home, my drive was set on fire. I needed all of the
+            new arduino nano boards, Sony's new Spresense board, the Nvidia
+            Jetson, an oscilloscope, and to dip my toes into machine learning
+            and AI. It was obvious funding and education were priority number
+            one, which has sent my down my current path of transitioning from
+            print floor management to software engineer, and enrolling in a
+            coding bootcamp to solidify and expand the basics before treading
+            into more advanced waters.<br /><br>
+            In the meantime, let's make some stuff we're excited about.
+          </div>
+          <div id="projects" style="display : none;">boo shet</div>
+          <div id="resume" style="display : none;">boo shet</div>
+          <div id="contact" style="display : none;">boo shet</div>
+        </div>
+      </div>
+    </div>
+
+    <div id="footer">
       <div id="link-tray">
         <img class="icon" src="./assets/images/icons/github.png" />
         <img class="icon" src="./assets/images/icons/linkedin.png" />
         <img class="icon" src="./assets/images/icons/facebook.png" />
         <img class="icon" src="./assets/images/icons/instagram.png" />
       </div>
-    </header>
-
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <div id="links">
-            <div id="bio-link"></div>
-            <div id="projects-link"></div>
-            <div id="resume"></div>
-            <div id="contact"></div>
-          </div>
-          <div id="bio" style="display : none;"></div>
-          <div id="projects" style="display : none;"></div>
-          <div id="resume" style="display : none;"></div>
-          <div id="contact" style="display : none;"></div>
-        </div>
-      </div>
     </div>
-
-    <div id="footer"></div>
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
     <script src="assets/script.js"></script>
   </body>
