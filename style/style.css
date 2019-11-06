@@ -23,27 +23,33 @@ header {
 }
 
 #name {
-  position: relative;
   float: left;
-  width: 100%;
-  margin-right: 10%;
-  padding-left: 200px;
-  padding-top: 80px;
-  padding-right: 10px;
   padding-bottom: 10px;
+  margin-top: 30px;
   font-size: 120px;
-  font-weight: 400;
+  font-weight: 500;
   color: #004e64;
 }
 
 /* Main container */
 
+#links {
+  position: relative;
+  float: right;
+}
+
 .link {
   position: relative;
   float: left;
-  font-size: 62px;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  font-size: 22px;
+  padding-left: 8%;
+  padding-right: 10%;
+  margin-bottom: 30px;
+}
+
+.link:hover {
+  transition: .5s;
+  background: rgba(0, 0, 0, .1);
 }
 
 .text {
@@ -51,8 +57,14 @@ header {
 }
 
 .screenshot {
-    width: 80%;
+    width: 40%;
     padding-bottom: 20px;
+}
+
+.page-content {
+  padding: 50px;
+  background: rgba(0, 0, 0, .15);
+  border-radius: 10px;
 }
 
 /* Footer */
