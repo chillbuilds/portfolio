@@ -33,11 +33,6 @@ header {
 
 /* Main container */
 
-#links {
-  position: relative;
-  float: right;
-}
-
 .link {
   position: relative;
   float: left;
@@ -57,14 +52,35 @@ header {
 }
 
 .screenshot {
-    width: 40%;
-    padding-bottom: 20px;
+  float: left;
+    width: 60%;
+    padding-right: 20px;
+    margin-bottom: 40px;
 }
 
 .page-content {
   padding: 50px;
   background: rgba(0, 0, 0, .15);
   border-radius: 10px;
+}
+
+.gitLink{
+  position: relative;
+}
+
+.project-title {
+  position: relative;
+  padding-right: 20px;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.project-description{
+  position: relative;
+}
+
+.project {
+  padding-bottom: 20px;
 }
 
 /* Footer */
